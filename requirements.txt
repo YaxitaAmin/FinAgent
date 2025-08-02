@@ -1,0 +1,65 @@
+# Core Streamlit and Web Framework
+streamlit==1.28.1
+streamlit-option-menu==0.3.6
+
+# Data Processing and Analysis
+pandas==2.1.4
+numpy==1.24.3
+scipy==1.11.4
+
+# Financial Data and APIs
+yfinance==0.2.18
+requests==2.31.0
+
+# Machine Learning and Analytics
+scikit-learn==1.3.2
+joblib==1.3.2
+
+# Data Visualization
+plotly==5.17.0
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Technical Analysis
+ta==0.10.2
+
+# Network Analysis (for correlation networks)
+networkx==3.2.1
+
+# Database
+sqlite3  # Built into Python, no separate install needed
+
+# Async and Threading Support
+asyncio  # Built into Python
+threading  # Built into Python
+
+# Logging and Utilities
+logging  # Built into Python
+datetime  # Built into Python
+json  # Built into Python
+os  # Built into Python
+time  # Built into Python
+warnings  # Built into Python
+
+# Data Classes and Type Hints
+dataclasses  # Built into Python 3.7+
+typing  # Built into Python
+abc  # Built into Python
+
+# Optional: Enhanced Features (install if available)
+# redis==5.0.1  # For caching (optional)
+# psycopg2-binary==2.9.9  # For PostgreSQL (optional)
+# python-dotenv==1.0.0  # For environment variables (optional)
+
+# Development and Testing (uncomment for development)
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# black==23.11.0
+# flake8==6.1.0
+# mypy==1.7.1
+
+# Pin versions for Streamlit Cloud compatibility
+certifi==2023.11.17
+charset-normalizer==3.3.2
+urllib3==2.1.0
+idna==3.6
