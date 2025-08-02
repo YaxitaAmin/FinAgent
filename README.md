@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 3. **Run the dashboard**
 ```bash
-streamlit run portfolio_risk_system.py dashboard
+streamlit run main.py dashboard
 ```
 
 4. **Access the application**
@@ -85,22 +85,22 @@ threading
 ### 1. **Dashboard Mode** (Recommended)
 ```bash
 # Launch interactive dashboard
-python portfolio_risk_system.py dashboard
+python main.py dashboard
 
 # Or use Streamlit directly
-streamlit run portfolio_risk_system.py dashboard
+streamlit run main.py dashboard
 ```
 
 ### 2. **Integrated Mode** (Dashboard + Background System)
 ```bash
 # Run with background risk monitoring
-python portfolio_risk_system.py integrated
+python main.py integrated
 ```
 
 ### 3. **CLI Mode** (Headless Operation)
 ```bash
 # Run command-line version
-python portfolio_risk_system.py
+python main.py
 ```
 
 ### 4. **Programmatic Usage**
@@ -335,7 +335,7 @@ monitor_sector_rotation()
 
 ### **Local Development**
 ```bash
-streamlit run portfolio_risk_system.py dashboard
+streamlit run main.py dashboard
 ```
 
 ### **Docker Deployment**
@@ -347,7 +347,7 @@ COPY . .
 RUN pip install -r requirements.txt
 
 EXPOSE 8501
-CMD ["streamlit", "run", "portfolio_risk_system.py", "dashboard"]
+CMD ["streamlit", "run", "main.py", "dashboard"]
 ```
 
 ### **Cloud Deployment**
@@ -393,38 +393,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Contact
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/portfolio-risk-management/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/portfolio-risk-management/discussions)
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **Email**: yaxita2003@gmail.com
 
-## 🎖️ Project Status
-
-- ✅ **Core Risk Management**: Complete
-- ✅ **Machine Learning Integration**: Complete
-- ✅ **Streamlit Dashboard**: Complete
-- ✅ **Stress Testing**: Complete
-- 🟡 **API Integration**: In Progress
-- 🟡 **Mobile Responsiveness**: In Progress
-- ⏳ **Cloud Deployment**: Planned
-- ⏳ **Performance Optimization**: Planned
-
----
-
-## 🔥 Screenshots
-
-### Dashboard Overview
-![Dashboard Overview](screenshots/dashboard-overview.png)
-
-### Risk Alerts
-![Risk Alerts](screenshots/risk-alerts.png)
-
-### Stress Testing
-![Stress Testing](screenshots/stress-testing.png)
-
-### ML Analytics
-![ML Analytics](screenshots/ml-analytics.png)
-
+#
 ---
 
 **Built with ❤️ for the financial technology community**
