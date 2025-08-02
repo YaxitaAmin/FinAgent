@@ -4,7 +4,7 @@ streamlit-option-menu==0.3.6
 
 # Data Processing and Analysis
 pandas==2.1.4
-numpy==1.24.3
+numpy==1.26.4
 scipy==1.11.4
 
 # Financial Data and APIs
@@ -23,42 +23,36 @@ seaborn==0.13.0
 # Technical Analysis
 ta==0.10.2
 
-# Network Analysis (for correlation networks)
+# Network Analysis
 networkx==3.2.1
 
-# Database
-sqlite3  # Built into Python, no separate install needed
+# Standard Library Modules (Included with Python — no install needed)
+# sqlite3
+# asyncio
+# threading
+# logging
+# datetime
+# json
+# os
+# time
+# warnings
+# dataclasses
+# typing
+# abc
 
-# Async and Threading Support
-asyncio  # Built into Python
-threading  # Built into Python
+# Optional Features (uncomment if needed)
+# redis==5.0.1
+# psycopg2-binary==2.9.9
+# python-dotenv==1.0.0
 
-# Logging and Utilities
-logging  # Built into Python
-datetime  # Built into Python
-json  # Built into Python
-os  # Built into Python
-time  # Built into Python
-warnings  # Built into Python
-
-# Data Classes and Type Hints
-dataclasses  # Built into Python 3.7+
-typing  # Built into Python
-abc  # Built into Python
-
-# Optional: Enhanced Features (install if available)
-# redis==5.0.1  # For caching (optional)
-# psycopg2-binary==2.9.9  # For PostgreSQL (optional)
-# python-dotenv==1.0.0  # For environment variables (optional)
-
-# Development and Testing (uncomment for development)
+# Dev & Testing Tools (uncomment for development)
 # pytest==7.4.3
 # pytest-asyncio==0.21.1
 # black==23.11.0
 # flake8==6.1.0
 # mypy==1.7.1
 
-# Pin versions for Streamlit Cloud compatibility
+# Streamlit Cloud Compatibility (Pinned versions)
 certifi==2023.11.17
 charset-normalizer==3.3.2
 urllib3==2.1.0
