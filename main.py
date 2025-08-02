@@ -44,7 +44,11 @@ import networkx as nx  # For correlation networks
 from scipy.optimize import minimize  # For portfolio optimization
 
 warnings.filterwarnings('ignore')
-st.set_page_config(page_title="FinAgent", layout="wide")
+st.set_page_config(
+    page_title="FinAgent",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 # Configure logging
 logging.basicConfig(
