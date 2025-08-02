@@ -45,10 +45,12 @@ from scipy.optimize import minimize  # For portfolio optimization
 
 warnings.filterwarnings('ignore')
 st.set_page_config(
-    page_title="FinAgent",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+            page_title="Portfolio Risk Management System",
+            page_icon="🏦",
+            layout="wide",
+            initial_sidebar_state="expanded"
+        )
+        
 
 # Configure logging
 logging.basicConfig(
@@ -1118,13 +1120,7 @@ class RiskManagementDashboard:
         
     def run_dashboard(self):
         """Main dashboard interface"""
-        st.set_page_config(
-            page_title="Portfolio Risk Management System",
-            page_icon="🏦",
-            layout="wide",
-            initial_sidebar_state="expanded"
-        )
-        
+       
         # Initialize system if not running
         if not self.risk_system.is_running:
             self.risk_system.simulate_running_system()
