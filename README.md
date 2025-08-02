@@ -6,7 +6,8 @@
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 > **Enterprise-grade autonomous portfolio risk management system with advanced machine learning, real-time monitoring, and comprehensive stress testing capabilities.**
-https://finagents.streamlit.app/
+
+https://finaagentai.streamlit.app/
 ## 🌟 Key Features
 
 ### 🤖 **Multi-Agent Architecture**
