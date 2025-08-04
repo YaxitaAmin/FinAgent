@@ -33,6 +33,8 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.cluster import KMeans
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Advanced Analytics
 try:
