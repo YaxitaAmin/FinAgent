@@ -44,8 +44,8 @@ pip (Python package manager)
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YaxitaAmin/portfolio-risk-management.git
-cd portfolio-risk-management
+git clone https://github.com/YaxitaAmin/FinAgent.git
+cd FinAgent
 ```
 
 2. **Install dependencies**
@@ -364,7 +364,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### **Development Setup**
 ```bash
 # Clone the repository
-git clone https://github.com/YaxitaAmin/portfolio-risk-management.git
+git clone https://github.com/YaxitaAmin/FinAgent.git
 
 # Create virtual environment
 python -m venv venv
