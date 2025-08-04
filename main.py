@@ -42,8 +42,6 @@ except ImportError:
     
 import networkx as nx  # For correlation networks
 from scipy.optimize import minimize  # For portfolio optimization
-
-warnings.filterwarnings('ignore')
 st.set_page_config(
             page_title="Portfolio Risk Management System",
             page_icon="🏦",
@@ -51,6 +49,8 @@ st.set_page_config(
             initial_sidebar_state="expanded"
         )
         
+
+warnings.filterwarnings('ignore')
 
 # Configure logging
 logging.basicConfig(
