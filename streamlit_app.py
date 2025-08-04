@@ -17,10 +17,6 @@ from main import (
     EnhancedRiskManagementSystem,
     RiskManagementDashboard
 )
-
-def main():
-    """Main Streamlit application entry point"""
-    # Page configuration
     st.set_page_config(
         page_title="Portfolio Risk Management System",
         page_icon="🏦",
@@ -28,6 +24,10 @@ def main():
         initial_sidebar_state="expanded"
     )
     
+def main():
+    """Main Streamlit application entry point"""
+    # Page configuration
+
     # Initialize session state
     if 'risk_system' not in st.session_state:
         portfolio = create_enhanced_portfolio()
