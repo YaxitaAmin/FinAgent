@@ -17,12 +17,12 @@ from main import (
     EnhancedRiskManagementSystem,
     RiskManagementDashboard
 )
-    st.set_page_config(
-        page_title="Portfolio Risk Management System",
-        page_icon="🏦",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
+st.set_page_config(
+    page_title="Portfolio Risk Management System",
+    page_icon="🏦",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
     
 def main():
     """Main Streamlit application entry point"""
